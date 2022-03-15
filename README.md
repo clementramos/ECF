@@ -34,6 +34,11 @@ A list of technologies used within the project:
 * [PHP 8.0](https://example.com): Version 1234
 * * [Symfony](https://example.com): Version 1234
 * [MariaDB](https://example.com): Version 12344
+<a name="docs"></a>
+### Docs
+Graphic Chart :
+[Charte graphique V1.pdf](https://github.com/clementramos/ECF/files/8254778/Charte.graphique.V1.pdf)
+
 <a name="faqs"></a>
 ### FAQs
 A list of frequently asked questions
