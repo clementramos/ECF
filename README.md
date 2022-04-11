@@ -58,3 +58,15 @@ Answer of the third question with *italic words*.
 | text-align left | text-align center | text-align right |
 
 <a name="mcd"></a>
+### Modèles Conceptuels de Données
+#### Diagramme d'activité : "Réserver une suite"
+![CASE OF USE BOOKING](https://user-images.githubusercontent.com/81080837/161830574-3c72abaf-60f0-416f-9f52-c7fa772d6c82.png)
+#### Diagramme de cas d'utilisation : "Général"
+![CASE OF USE DIAGRAM drawio](https://user-images.githubusercontent.com/81080837/161830580-29c4d774-a07d-4063-93ce-c4d8dc68c039.png)
+#### Diagramme de classes
+![MODELE PHYSIQUE DE DONNES](https://user-images.githubusercontent.com/81080837/161830581-2c74ffb2-d0b9-470d-8e9d-74180c29d940.png)
+#### Diagramme de paquetages 
+![PACKAGE DIAGRAM](https://user-images.githubusercontent.com/81080837/161830583-6c74f2ad-cd57-4314-ad39-bacb8afbb921.png)
+#### Diagramme de séquence
+![SEQUENCE CONTACT](https://user-images.githubusercontent.com/81080837/161830585-07055715-f447-482d-be6b-997c57a9c94e.png)
+
