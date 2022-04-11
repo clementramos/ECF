@@ -7,7 +7,7 @@
 4. [How to create an Andmin](#howto)
 5. [How to use the website](#howtowebsite)
 6. [Docs](#docs)
-7. 	[MCD](#mcd) 
+7. [MCD](#mcd) 
 8. [FAQs](#faqs)
 ***
 <a name="description"></a>
@@ -56,3 +56,5 @@ Answer of the third question with *italic words*.
 | Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead | <br>
 |:--------------|:-------------:|--------------:| <br>
 | text-align left | text-align center | text-align right |
+
+<a name="mcd"></a>
