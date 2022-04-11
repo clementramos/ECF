@@ -7,7 +7,8 @@
 4. [How to create an Andmin](#howto)
 5. [How to use the website](#howtowebsite)
 6. [Docs](#docs)
-7. [FAQs](#faqs)
+7. 	[MCD](#mcd) 
+8. [FAQs](#faqs)
 ***
 <a name="description"></a>
 ### Description of the project
