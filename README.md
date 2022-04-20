@@ -65,7 +65,8 @@ Manuel :
 #### Diagramme de cas d'utilisation : "Général"
 ![CASE OF USE DIAGRAM drawio](https://user-images.githubusercontent.com/81080837/161830580-29c4d774-a07d-4063-93ce-c4d8dc68c039.png)
 #### Diagramme de classes
-![MODELE PHYSIQUE DE DONNES](https://user-images.githubusercontent.com/81080837/161830581-2c74ffb2-d0b9-470d-8e9d-74180c29d940.png)
+![MODELE PHYSIQUE DE DONNES](https://user-images.githubusercontent.com/81080837/164315116-de415209-3ae4-40c6-845b-a9339e8adbfd.png)
+
 #### Diagramme de paquetages 
 ![PACKAGE DIAGRAM](https://user-images.githubusercontent.com/81080837/161830583-6c74f2ad-cd57-4314-ad39-bacb8afbb921.png)
 #### Diagramme de séquence
