@@ -1,0 +1,37 @@
+.nav_logo_img {
+    width: 7em;
+    max-width: 200px
+}
+
+.nav_logo_account {
+    width: 2em;
+    max-width: 70px;
+}
+
+.btn.btn-outline-dark.my-2.my-sm-0 {
+    border: none;
+}
+
+.collapse.navbar-collapse {
+    font-size: 1.5em;
+    background-color: rgb(204, 201, 220);
+}
+
+.text-center.text-dark {
+    background-color: #fffd98;
+    font-size: 1.4em;
+}
+
+.admin {
+    display: block;
+    text-align: center !important;
+    font-size: xx-large;
+    margin: 25px;
+    padding: 25px;
+}
+
+.actions {
+    text-align: start;
+    margin: 25px;
+    padding: 25px;
+}
