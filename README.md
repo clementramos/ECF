@@ -4,8 +4,8 @@
 1. [Description of the project](#description)
 2. [Deploiement](#local)
 3. [Technologies used](#techno)
-4. [How to create an Andmin](#howto)
-5. [How to use the website](#howtowebsite)
+4. [How to create an an admin](#howtoAdmin)
+5. [How to create a manager](#howtowebsite)
 6. [Docs](#docs)
 7. [MCD](#mcd) 
 8. [FAQs](#faqs)
@@ -25,45 +25,36 @@ I've personnaly used ```XAMP Control Panel v3.3.0``` during the development. <br
 To deploy the website on a local environnement, you have to download the source code then copy/paste it on the ```htdocs``` file. <br>
 When it's done, you can now go to localhost/CLIENT V1/ and navigate trough the website ! Have fun ! :grin:
 ```
-$ git clone https://example.com
+$ git clone https://github.com/clementramos/ECF.git
 $ cd ../path/to/the/file
 $ npm install
 $ npm start
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+Side information: To use the application in a special environment use ```localhost``` to start
 <a name="techno"></a>
 ### Technologies
 A list of technologies used within the project:
-* [HTML 5](https://example.com): Version 12.3 
-* [CSS 3](https://example.com): Version 2.34
-* * [Bootstrap](https://example.com): Version 1234
-* [JavaScript](https://example.com): Version 1234
-* * [Node.js](https://example.com): Version 1234
-* [PHP 8.0](https://example.com): Version 1234
-* * [Symfony](https://example.com): Version 1234
-* [MariaDB](https://example.com): Version 12344
+* [HTML 5](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics)
+* [CSS 3](https://developer.mozilla.org/fr/docs/Web/CSS)
+* * [Bootstrap](https://getbootstrap.com/)
+* [PHP 8.0](https://www.php.net/)
+* [MariaDB](https://mariadb.org/)
+<a name="howtoAdmin"></a>
+### How to create an admin
+Well in fact... you can't...:fearful:
+One admin is created for this website, the ID is "1" and the password is "admin". <br>
+<br>
+Obviously, you can create one with the ```createAdmin.php``` file :partying_face:	
+<br>
+<a name="howtoWebsite"></a>
+### How to create a manager
+It's as simple as "Hello!" <br>
+When you're logged in as the admin, you can easily find "Ajouter un manager" in the main menu. Once you've clicked, few informations are required. Name, First name, mail and secured password.
+<br>
 <a name="docs"></a>
 ### Docs
 Graphic Chart :
 [Charte graphique V1.pdf](https://github.com/clementramos/ECF/files/8254778/Charte.graphique.V1.pdf)
-
-<a name="faqs"></a>
-### FAQs
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold** <br>
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead | <br>
-|:--------------|:-------------:|--------------:| <br>
-| text-align left | text-align center | text-align right |
-
 <a name="mcd"></a>
 ### Modèles Conceptuels de Données
 #### Diagramme d'activité : "Réserver une suite"
