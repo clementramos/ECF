@@ -46,7 +46,7 @@ One admin is created for this website, the ID is "1" and the password is "admin"
 <br>
 Obviously, you can create one with the ```createAdmin.php``` file :partying_face:	
 <br>
-<a name="howtoWebsite"></a>
+<a name="howtowebsite"></a>
 ### How to create a manager
 It's as simple as "Hello!" <br>
 When you're logged in as the admin, you can easily find "Ajouter un manager" in the main menu. Once you've clicked, few informations are required. Name, First name, mail and secured password.
@@ -55,6 +55,7 @@ When you're logged in as the admin, you can easily find "Ajouter un manager" in 
 ### Docs
 Graphic Chart :
 [Charte graphique V1.pdf](https://github.com/clementramos/ECF/files/8254778/Charte.graphique.V1.pdf)
+<br>
 Manuel :
 [Manuel d'utilisation.pdf](https://github.com/clementramos/ECF/files/8523823/MANUEL.UTILISATION.pdf)
 <a name="mcd"></a>
