@@ -1,24 +1,24 @@
 # ECF :house:	
 ***
 ## Table Of Contents
-1. [Description of the project](#description)
-2. [Deploiement](#local)
-3. [Technologies used](#techno)
-4. [How to create an an admin](#howtoAdmin)
-5. [How to create a manager](#howtowebsite)
-6. [Docs](#docs)
-7. [MCD](#mcd) 
-8. [Scripts SQL](#sql)
+1. [Description of the project](#description) :speaking_head:
+2. [Deploiement](#local) :globe_with_meridians:	
+3. [Technologies used](#techno) :compass:	
+4. [How to create an an admin](#howtoAdmin) :teacher:	
+5. [How to create a manager](#howtowebsite) :man_judge:	
+6. [Docs](#docs) :books:	
+7. [MCD](#mcd) :dart:	
+8. [Scripts SQL](#sql) :joystick:	
 ***
 <a name="description"></a>
-### Description of the project
+### Description of the project :speaking_head:
 The main goal is to create a complete website of an hotel group. 7 main functionnalties are required, with 3 types of people using the website. The Admin, the Visitor and the Manager. <br>
 The administrator creates hotels and managers, <br>
 The manager creates rooms in his hotel, <br>
 The visitor can navigate trough the website and check availability of one room or another. If he wants to book, he must create an account. <br>
 ***
 <a name="local"></a>
-### Deploiement
+### Deploiement :globe_with_meridians:
 A little intro about the installation. 
 
 I've personnaly used ```XAMP Control Panel v3.3.0``` during the development. <br>
@@ -32,7 +32,7 @@ $ npm start
 ```
 Side information: To use the application in a special environment use ```localhost``` to start
 <a name="techno"></a>
-### Technologies
+### Technologies used :compass:
 A list of technologies used within the project:
 * [HTML 5](https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/HTML_basics)
 * [CSS 3](https://developer.mozilla.org/fr/docs/Web/CSS)
@@ -40,19 +40,19 @@ A list of technologies used within the project:
 * [PHP 8.0](https://www.php.net/)
 * [MariaDB](https://mariadb.org/)
 <a name="howtoAdmin"></a>
-### How to create an admin
+### How to create an admin :teacher:
 Well in fact... you can't...:fearful:
 One admin is created for this website, the ID is "1" and the password is "admin". <br>
 <br>
 Obviously, you can create one with the ```createAdmin.php``` file :partying_face:	
 <br>
 <a name="howtowebsite"></a>
-### How to create a manager
+### How to create a manager :man_judge:	
 It's as simple as "Hello!" <br>
 When you're logged in as the admin, you can easily find "Ajouter un manager" in the main menu. Once you've clicked, few informations are required. Name, First name, mail and secured password.
 <br>
 <a name="docs"></a>
-### Docs
+### Docs :books:
 Graphic Chart :
 [Charte graphique V1.pdf](https://github.com/clementramos/ECF/files/8254778/Charte.graphique.V1.pdf)
 <br>
@@ -65,13 +65,16 @@ Documentation technique :
 Modèle de copie Studi :
 (https://github.com/clementramos/ECF/files/8525093/MODELE.COPIE.RAMOS.pdf)
 <br>
+Maquettes (pdf):
+[MAQUETTE RAMOS.pdf](https://github.com/clementramos/ECF/files/8525298/MAQUETTE.RAMOS.pdf)
+<br>
 Liens : <br>
 Trello : https://trello.com/invite/b/2APNLfKH/28d6bc6791e03c370d6eff2c59279b8c/ecf-hypnos
 <br>
 Website : http://hypnoshotels.online/
 
 <a name="mcd"></a>
-### Modèles Conceptuels de Données
+### Modèles Conceptuels de Données :dart:
 #### Diagramme d'activité : "Réserver une suite"
 ![CASE OF USE BOOKING](https://user-images.githubusercontent.com/81080837/161830574-3c72abaf-60f0-416f-9f52-c7fa772d6c82.png)
 #### Diagramme de cas d'utilisation : "Général"
@@ -84,7 +87,7 @@ Website : http://hypnoshotels.online/
 #### Diagramme de séquence
 ![SEQUENCE CONTACT](https://user-images.githubusercontent.com/81080837/161830585-07055715-f447-482d-be6b-997c57a9c94e.png)
 <a name="sql"></a>
-### Scripts SQL
+### Scripts SQL :joystick:
 ## Creation of the database :
 ```
 CREATE DATABASE hypnos
