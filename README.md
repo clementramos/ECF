@@ -139,7 +139,21 @@ CREATE TABLE contact
     contact_message TEXT
 );
 ```
-## Create a manager
+## Create an admin
 ```
 INSERT INTO administrateur(admin_id, admin_name, admin_password)VALUES(?, ?, ?)
+```
+## Delete an admin
+```
+DELETE FROM administrateur WHERE admin_id = ?
+```
+## Updating an hotel
+```
+$new_hotel_title = htmlspecialchars($_POST['etablissement_id']);
+        $new_hotel_description = nl2br(htmlspecialchars($_POST['etablissement_description']));
+        $new_hotel_adress =nl2br(htmlspecialchars($_POST['etablissement_adress']));
+        $new_hotel_city = nl2br(htmlspecialchars($_POST['etablissement_city']));
+        
+        $editHotelOnWebsite = $bdd->prepare('UPDATE etablissements SET etablissement_id = ?, etablissement_description = ?, etablissement_adress = ?, etablissement_city = ? WHERE etablissement_id = ?');
+        $editHotelOnWebsite->execute(array($new_hotel_title, $new_hotel_description, $new_hotel_adress, $new_hotel_city, $idOfHotel));
 ```
