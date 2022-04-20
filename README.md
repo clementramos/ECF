@@ -1,4 +1,4 @@
-# ECF
+# ECF :house:	
 ***
 ## Table Of Contents
 1. [Description of the project](#description)
@@ -13,10 +13,17 @@
 <a name="description"></a>
 ### Description of the project
 The main goal is to create a complete website of an hotel group. 7 main functionnalties are required, with 3 types of people using the website. The Admin, the Visitor and the Manager. <br>
+The administrator creates hotels and managers, <br>
+The manager creates rooms in his hotel, <br>
+The visitor can navigate trough the website and check availability of one room or another. If he wants to book, he must create an account. <br>
 ***
 <a name="local"></a>
 ### Deploiement
 A little intro about the installation. 
+
+I've personnaly used ```XAMP Control Panel v3.3.0``` during the development. <br>
+To deploy the website on a local environnement, you have to download the source code then copy/paste it on the ```htdocs``` file. <br>
+When it's done, you can now go to localhost/CLIENT V1/ and navigate trough the website ! Have fun ! :grin:
 ```
 $ git clone https://example.com
 $ cd ../path/to/the/file
