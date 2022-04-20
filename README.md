@@ -60,12 +60,12 @@ Manuel :
 [Manuel d'utilisation.pdf](https://github.com/clementramos/ECF/files/8523823/MANUEL.UTILISATION.pdf)
 <br>
 Documentation technique :
-
+[DOCUMENTATION TECHNIQUE.pdf](https://github.com/clementramos/ECF/files/8525184/DOCUMENTATION.TECHNIQUE.pdf)
 <br>
 Modèle de copie Studi :
 (https://github.com/clementramos/ECF/files/8525093/MODELE.COPIE.RAMOS.pdf)
 <br>
-Liens : 
+Liens : <br>
 Trello : https://trello.com/invite/b/2APNLfKH/28d6bc6791e03c370d6eff2c59279b8c/ecf-hypnos
 <br>
 Website : http://hypnoshotels.online/
