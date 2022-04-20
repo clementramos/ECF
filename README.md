@@ -8,7 +8,7 @@
 5. [How to create a manager](#howtowebsite)
 6. [Docs](#docs)
 7. [MCD](#mcd) 
-8. [FAQs](#faqs)
+8. [Scripts SQL](#sql)
 ***
 <a name="description"></a>
 ### Description of the project
@@ -67,4 +67,79 @@ Graphic Chart :
 ![PACKAGE DIAGRAM](https://user-images.githubusercontent.com/81080837/161830583-6c74f2ad-cd57-4314-ad39-bacb8afbb921.png)
 #### Diagramme de séquence
 ![SEQUENCE CONTACT](https://user-images.githubusercontent.com/81080837/161830585-07055715-f447-482d-be6b-997c57a9c94e.png)
+<a name="sql"></a>
+### Scripts SQL
+## Creation of the database :
+```
+CREATE DATABASE hypnos
+USE DATABASE hypnos
 
+CREATE TABLE administrateur
+(
+    admin_id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    admin_name VARCHAR(255),
+    admin_password TEXT
+);
+
+CREATE TABLE manager 
+( 
+    manager_id INT(11), 
+    manager_name VARCHAR(255) PRIMARY KEY NOT NULL,
+    manager_surname VARCHAR(255),
+    manager_password TEXT,
+    manager_mail VARCHAR(255)
+);
+
+CREATE TABLE etablissements
+(
+    etablissement_id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    etablissement_title VARCHAR(255),
+    etablissement_city VARCHAR(255),
+    etablissement_adress VARCHAR(255),
+    etablissement_description TEXT,
+    etablissement_date DATETIME
+);
+
+CREATE TABLE clients 
+(
+    client_email VARCHAR(255) PRIMARY KEY NOT NULL,
+    client_firstname VARCHAR(255),
+    client_lastname VARCHAR(255),
+    client_password TEXT
+);
+
+CREATE TABLE chambre
+(
+    chambre_id INT(11)  PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    chambre_title TEXT, 
+    chambre_description TEXT,
+    chambre_price TEXT,
+    chambre_lien TEXT
+);
+
+CREATE TABLE reservation
+(
+    reservation_id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    reservation_arrival DATE,
+    reservation_departure DATE,
+    reservation_first_name VARCHAR(255),
+    reservation_last_name VARCHAR(255),
+    reservation_email TEXT,
+    reservation_hotel_pref INT(11),
+    reservation_adults INT(11),
+    reservation_children INT(11),
+    reservation_room_pref INT(11)
+);
+
+CREATE TABLE contact
+(
+    contact_name VARCHAR(255) PRIMARY KEY NOT NULL,
+    contact_email VARCHAR (255),
+    contact_subject VARCHAR(255),
+    contact_message TEXT
+);
+```
+## Create a manager
+```
+INSERT INTO administrateur(admin_id, admin_name, admin_password)VALUES(?, ?, ?)
+```
