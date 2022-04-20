@@ -55,6 +55,8 @@ When you're logged in as the admin, you can easily find "Ajouter un manager" in 
 ### Docs
 Graphic Chart :
 [Charte graphique V1.pdf](https://github.com/clementramos/ECF/files/8254778/Charte.graphique.V1.pdf)
+Manuel :
+[Manuel d'utilisation.pdf](https://github.com/clementramos/ECF/files/8523823/MANUEL.UTILISATION.pdf)
 <a name="mcd"></a>
 ### Modèles Conceptuels de Données
 #### Diagramme d'activité : "Réserver une suite"
