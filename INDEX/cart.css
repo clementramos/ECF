@@ -1,0 +1,136 @@
+#div_cart {
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 0 0 2.1875rem rgba(140, 152, 164, 0.25) !important;
+}
+
+#div_search {
+    background: #FFF;
+    border: 1px solid #ddd;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0 0 2.1875rem rgba(140, 152, 164, 0.25) !important;
+}
+
+.form_horizontal .form_group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form_group {
+    margin-bottom: 15px;
+}
+
+.col-lg-12 {
+    display: flex;
+}
+
+.col-md-3 .col-md-9 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.property-detail.border-property {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.service-icons img {
+    height: 28px;
+    padding: 5px;
+}
+
+.row_1 {
+    background: #FFF;
+    padding: 15px;
+}
+
+.row_2 {
+    padding: 0px;
+}
+
+.col-lg-15 {
+    padding-left: 45px;
+}
+
+.img_property {
+    text-align: center;
+    cursor: pointer;
+}
+
+.img_responsive {
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+}
+
+.container_fluid {
+    padding: 25px;
+}
+
+.div-in,
+.div-out {
+    background: #fff;
+    padding-top: 8px;
+    padding-bottom: 50px;
+    color: #555;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 8px #ddd;
+    cursor: pointer;
+}
+
+.btn-search {
+    width: 100%;
+}
+
+.btn_info {
+    padding-top: 15px;
+}
+
+.text_ {
+    font-size: 15px;
+}
+
+.lbl-in-out,
+.lbl-room-apart,
+.lbl-number-room {
+    font-size: 25px;
+    text-align: center;
+    color: #000;
+    padding: 0;
+}
+
+.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+    display: inline-block;
+}
+
+#dayFrom,
+#dayTo {
+    text-align: center;
+    font-size: 42px;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: #555;
+    -webkit-box-shadow: none;
+    height: 100%;
+}
+
+#labelMonthFrom,
+#labelMonthTo {
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+}
+
+@media screen and (max-width: 768px) {
+    .property-detail.border-property {
+        padding: 25px;
+    }
+}
