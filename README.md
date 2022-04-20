@@ -63,12 +63,13 @@ Documentation technique :
 
 <br>
 Modèle de copie Studi :
-[Modèle copie.pdf](https://github.com/clementramos/ECF/files/8525093/MODELE.COPIE.RAMOS.pdf)
+(https://github.com/clementramos/ECF/files/8525093/MODELE.COPIE.RAMOS.pdf)
 <br>
 Liens : 
 Trello : https://trello.com/invite/b/2APNLfKH/28d6bc6791e03c370d6eff2c59279b8c/ecf-hypnos
 <br>
 Website : http://hypnoshotels.online/
+
 <a name="mcd"></a>
 ### Modèles Conceptuels de Données
 #### Diagramme d'activité : "Réserver une suite"
