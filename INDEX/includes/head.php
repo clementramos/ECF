@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenue sur la page des hôtels hypnos à Montpellier. Retrouver une grande sélection d'hôtels de luxe à prix raisonnable. Ce projet est une évaluation en cours de formation chez l'organisme Studi.">
     <!-- CSS only -->
     <style>
     @media only screen {
