@@ -7,7 +7,7 @@
 4. [How to create an an admin](#howtoAdmin) :teacher:	
 5. [How to create a manager](#howtowebsite) :man_judge:	
 6. [Docs](#docs) :books:	
-7. [MCD](#mcd) :dart:	
+7. [MCD / Wireframes](#mcd) :dart:	
 8. [Scripts SQL](#sql) :joystick:	
 ***
 <a name="description"></a>
@@ -86,6 +86,20 @@ Website : http://hypnoshotels.online/
 ![PACKAGE DIAGRAM](https://user-images.githubusercontent.com/81080837/161830583-6c74f2ad-cd57-4314-ad39-bacb8afbb921.png)
 #### Diagramme de séquence
 ![SEQUENCE CONTACT](https://user-images.githubusercontent.com/81080837/161830585-07055715-f447-482d-be6b-997c57a9c94e.png)
+## Wireframes :
+US1 : <br>
+![US1 WEB](https://user-images.githubusercontent.com/81080837/164493512-0f415ffd-17a7-40e3-ae1d-ef165262f268.png)
+![wireframemobile1](https://user-images.githubusercontent.com/81080837/164494273-6b753119-06ae-4294-a6f0-9b5168865d5c.png)
+US2 : <br>
+![wireframe1](https://user-images.githubusercontent.com/81080837/164493654-913ee398-2eba-446a-9bb5-4832cb45f329.png)
+US3 : <br>
+![US3 WEB](https://user-images.githubusercontent.com/81080837/164493763-9642b300-75f0-40ee-b56f-476e1d760e5e.png)
+US4 : <br>
+![US4 WEB](https://user-images.githubusercontent.com/81080837/164494001-548a1808-ecaa-4b33-bd73-d2d0b4395b3a.png)
+US5 : <br>
+![US5 WEB](https://user-images.githubusercontent.com/81080837/164494127-0e3deb02-4487-47e4-9677-1db8c5ce78ef.png)
+US7 : <br>
+![US7 WEB](https://user-images.githubusercontent.com/81080837/164494204-09330b2d-15c6-4b4a-8794-55a03ec362cc.png)
 <a name="sql"></a>
 ### Scripts SQL :joystick:
 ## Creation of the database :
