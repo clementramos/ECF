@@ -42,7 +42,7 @@ A list of technologies used within the project:
 <a name="howtoAdmin"></a>
 ### How to create an admin :teacher:
 Well in fact... you can't...:fearful:
-One admin is created for this website, the ID is "1" and the password is "admin". <br>
+One admin is created for this website, the ID is "2" and the password is "admin". <br>
 <br>
 Obviously, you can create one with the ```createAdmin.php``` file :partying_face:	
 <br>
