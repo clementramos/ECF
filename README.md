@@ -32,7 +32,7 @@ $ git push origin master
 $ git init
 $ git remote add origin PATH/TO/REPO
 $ git fetch
-$git checkout -t origin/master
+$ git checkout -t origin/master
 
 ```
 Side information: To use the application in a special environment use ```localhost``` to start
