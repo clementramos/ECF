@@ -25,10 +25,17 @@ I've personnaly used ```XAMP Control Panel v3.3.0``` during the development. <br
 To deploy the website on a local environnement, you have to download the source code then copy/paste it on the ```htdocs``` file. <br>
 When it's done, you can now go to localhost/CLIENT V1/ and navigate trough the website ! Have fun ! :grin:
 ```
+$ ssh user@monserveur.fr 
+$ git init --bare ECF.git 
+$ git remote add origin ssh://user@monserveur.fr/home/user/MonProjet.git 
+$ git push origin master 
+$ git init
+$ git remote add origin PATH/TO/REPO
+$ git fetch
+$git checkout -t origin/master
+$ 
 $ git clone https://github.com/clementramos/ECF.git
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+
 ```
 Side information: To use the application in a special environment use ```localhost``` to start
 <a name="techno"></a>
